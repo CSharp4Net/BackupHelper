@@ -7,9 +7,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Title="CS4N.BackupHelper.WinUI3">
+    Title="Backup - Helper">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+    <NavigationView PaneDisplayMode="Auto" ItemInvoked="NavigationView_ItemInvoked">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Content="Einrichtung" x:Name="ItmSetup" />
+            <NavigationViewItem Content="Ausführung" x:Name="ItmExecution" />
+            <NavigationViewItem Content="Historie" x:Name="ItmHistory" />
+        </NavigationView.MenuItems>
+
+        <Frame x:Name="ContentFrame"/>
+    </NavigationView>
 </Window>
