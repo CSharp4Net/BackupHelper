@@ -1,13 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Authors>Marcus Tastler</Authors>
+		<Product>CS4N.BackupHelper</Product>
+		<RootNamespace>CS4N.BackupHelper.Logic</RootNamespace>
+		<AssemblyName>CS4N.BackupHelper.Logic</AssemblyName>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CS4N.BackupHelper.Core\Core.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\CS4N.BackupHelper.Core\Core.csproj" />
+	</ItemGroup>
 
 </Project>

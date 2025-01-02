@@ -1,0 +1,21 @@
+Backup - Helper:
+================
+
+Anforderung:
+------------
+Ein kleines Windows-Tool, welches mit einfacher Bedienung das Einrichten und Verwalten von automatischen Backups ermöglicht.
+
+Eckpunkte:
+----------
+- Auswahl mehrerer Quellen, auch von unterschiedlichen Laufwerken
+- Angabe eines Zielverzeichnisses als Root-Pfad
+- Spiegeln der Quelldateien und Strukturen in das Zielverzeichnis, aber mit:
+	- (Optional) beibehalten gelöschter Quellelemente
+	- Vergleichen von Dateien via Änderungserkennung (MD5-Hash o.ä.)
+- Einbindung in Systray für Dauerbetrieb und Infos/Erinnerungen
+- (Optional) automatische Ausführung der Synchronisation
+
+Systemanforderungen:
+--------------------
+- Windows 10 oder neuer
+- .NET 9.0
