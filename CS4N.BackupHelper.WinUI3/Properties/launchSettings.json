@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CS4N.BackupHelper.WinUI3 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CS4N.BackupHelper.WinUI3 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

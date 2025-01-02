@@ -2,7 +2,8 @@
 # Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
 ################################################################################
 
-/Backup - Helper/.vs
-/.vs
-/Backup - Helper/C4SN.BackupHelper.Logic/obj
-/Backup - Helper/CS4N.BackupHelper.Core/obj
+.vs
+obj
+bin
+*.suo
+*.user
